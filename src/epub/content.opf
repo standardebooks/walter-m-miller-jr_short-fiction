@@ -34,37 +34,65 @@
 		<meta property="term" refines="#subject-1">sh85118629</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85121813</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Science Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-US</dc:language>
+		<!-- Conditionally Human, February 1952 -->
+		<dc:source>https://www.gutenberg.org/ebooks/51651</dc:source>
+		<dc:source>https://archive.org/details/Galaxy_v03n05_1952-02</dc:source>
+		<!-- It Takes a Thief, May 1952 -->
+		<dc:source>https://www.gutenberg.org/ebooks/58673</dc:source>
+		<dc:source>https://archive.org/details/If_Worlds_Of_Science_Fiction_v01n02_Quinn_May_1952_Gorgon776</dc:source>
+		<!-- Check and Checkmate, January 1953 -->
+		<dc:source>https://www.gutenberg.org/ebooks/32837</dc:source>
+		<dc:source>https://archive.org/details/If_Worlds_Of_Science_Fiction_v01n06_Quinn_Jan_1953_Gorgon776</dc:source>
+		<!-- Death of a Spaceman, March 1954 -->
 		<dc:source>https://www.gutenberg.org/ebooks/29643</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:source>https://archive.org/details/Amazing_Stories_v28n01_March_1954</dc:source>
+		<!-- Way of a Rebel, April 1954 -->
+		<dc:source>https://www.gutenberg.org/ebooks/32416</dc:source>
+		<dc:source>https://archive.org/details/If_Worlds_Of_Science_Fiction_v03n02_Quinn_Apr_1954_Gorgon776</dc:source>
+		<!-- The Ties that Bind, May 1954 -->
+		<dc:source>https://www.gutenberg.org/ebooks/32775</dc:source>
+		<dc:source>https://archive.org/details/1954-05_IF</dc:source>
+		<!-- The Hoofer, September 1955 -->
+		<dc:source>https://www.gutenberg.org/ebooks/29170</dc:source>
+		<dc:source>https://archive.org/details/Fantastic_Universe_v04n02_1955-09</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Walter_M._Miller_Jr.#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/walter-m-miller-jr_short-fiction</meta>
 		<dc:creator id="author">Walter M. Miller Jr.</dc:creator>
-		<meta property="file-as" refines="#author">Jr., Walter M. Miller</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Miller, Walter M. Jr.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Walter_M._Miller_Jr.</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81120378</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Stephen Blundell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Blundell, Stephen</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Meehan, Mary</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-4">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
