@@ -1,2 +1,21 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+kbd,
+samp {
+	font-variant: small-caps;
+}
+
+#conditionally-human > blockquote{
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#check-and-checkmate > blockquote{
+	font-style: italic;
+	font-variant: small-caps;
+}
+
+#the-ties-that-bind > blockquote[epub|type~="z3998:letter"] {
+	font-variant: small-caps;
+}
