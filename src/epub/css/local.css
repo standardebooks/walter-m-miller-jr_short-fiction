@@ -1,14 +1,122 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+body [xml|lang],
+q{
+	font-style: italic;
+}
 
 kbd,
-samp {
+samp{
 	font-variant: small-caps;
 }
 
-#conditionally-human > blockquote{
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] em,
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
+
+/* Epigraphs in section headers */
+article > header [epub|type~="epigraph"],
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+article > header [epub|type~="epigraph"] + *,
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	article > header [epub|type~="epigraph"],
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
+header [epub|type~="epigraph"] cite{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+#conditionally-human > [epub|type~="z3998:letter"] > header{
+	text-align: left;
+}
+
+#conditionally-human > blockquote:nth-of-type(2){
 	font-variant: small-caps;
 	text-align: center;
+}
+
+#conditionally-human > blockquote:nth-of-type(3){
+	text-align: center;
+}
+
+#conditionally-human > blockquote:nth-of-type(3) span{
+	font-style: italic;
 }
 
 #check-and-checkmate > blockquote{
@@ -16,6 +124,11 @@ samp {
 	font-variant: small-caps;
 }
 
-#the-ties-that-bind > blockquote[epub|type~="z3998:letter"] {
+#the-ties-that-bind > blockquote[epub|type~="z3998:letter"]{
 	font-variant: small-caps;
+}
+
+#the-ties-that-bind > blockquote[epub|type~="z3998:letter"]:last-of-type > header > p:last-child{
+	margin-top: 0.5em;
+	text-align: left;
 }
