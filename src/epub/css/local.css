@@ -7,6 +7,10 @@ q{
 	font-style: italic;
 }
 
+q > [xml|lang]{
+	font-style: normal;
+}
+
 kbd,
 samp{
 	font-variant: small-caps;
