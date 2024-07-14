@@ -36,9 +36,11 @@
 		<meta property="term" refines="#subject-2">sh85121813</meta>
 		<meta property="se:subject">Science Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of short fiction by Walter M. Miller Jr., ordered by date of original publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/walter-m-miller-jr"&gt;Walter &lt;abbr&gt;M.&lt;/abbr&gt; Miller &lt;abbr&gt;Jr.&lt;/abbr&gt;&lt;/a&gt; was a author who was extensively published in the science fiction magazines of the 1950s. These days he is best remembered for his award-winning novel &lt;i&gt;A Canticle for Leibowitz&lt;/i&gt;, but his true craft lay in short stories. Between 1950 and 1957 he had over thirty-five of them published in magazines such as &lt;i&gt;Amazing Stories&lt;/i&gt;, &lt;i&gt;Other Worlds&lt;/i&gt; and &lt;i&gt;If&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;His themes were varied, but tended towards the human experience and the changes that affect society over large timescales. This collection includes stories about an early form of meme theory, the societal effect of genetically altered pets, the loss of scientific knowledge leading to potential catastrophe, and more.&lt;/p&gt;
+			&lt;p&gt;The short stories in this collection are those currently known to have passed into the &lt;abbr&gt;U.S.&lt;/abbr&gt; public domain, arranged in order of publication.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- Conditionally Human, February 1952 -->
@@ -62,7 +64,6 @@
 		<!-- The Hoofer, September 1955 -->
 		<dc:source>https://www.gutenberg.org/ebooks/29170</dc:source>
 		<dc:source>https://archive.org/details/Fantastic_Universe_v04n02_1955-09</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Walter_M._Miller_Jr.#Short_stories</meta>
