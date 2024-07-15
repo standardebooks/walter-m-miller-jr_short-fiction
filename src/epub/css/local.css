@@ -13,7 +13,7 @@ q > [xml|lang]{
 
 kbd,
 samp{
-	font-variant: small-caps;
+	text-transform: uppercase;
 }
 
 footer{
