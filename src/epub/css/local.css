@@ -116,6 +116,6 @@ p span.i1{
 }
 
 #the-ties-that-bind > blockquote[epub|type~="z3998:letter"]:last-of-type > header > p:last-child{
-	margin-top: 0.5em;
+	margin-top: .5em;
 	text-align: initial;
 }
