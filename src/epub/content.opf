@@ -36,6 +36,7 @@
 		<meta property="term" refines="#subject-2">sh85121813</meta>
 		<meta property="se:subject">Science Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of short fiction by Walter M. Miller Jr., ordered by date of original publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/walter-m-miller-jr"&gt;Walter M. Miller &lt;abbr&gt;Jr.&lt;/abbr&gt;&lt;/a&gt; was a author who was extensively published in the science fiction magazines of the 1950s. These days he is best remembered for his award-winning novel &lt;i&gt;A Canticle for Leibowitz&lt;/i&gt;, but his true craft lay in short stories. Between 1950 and 1957 he had over thirty-five of them published in magazines such as &lt;i&gt;Amazing Stories&lt;/i&gt;, &lt;i&gt;Other Worlds&lt;/i&gt; and &lt;i&gt;If&lt;/i&gt;.&lt;/p&gt;
