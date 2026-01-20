@@ -66,7 +66,7 @@
 		<!-- The Hoofer, September 1955 -->
 		<dc:source>https://www.gutenberg.org/ebooks/29170</dc:source>
 		<dc:source>https://archive.org/details/Fantastic_Universe_v04n02_1955-09</dc:source>
-		<meta property="se:word-count">55029</meta>
+		<meta property="se:word-count">53825</meta>
 		<meta property="se:reading-ease.flesch">76.93</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Walter_M._Miller_Jr.#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/walter-m-miller-jr_short-fiction</meta>
