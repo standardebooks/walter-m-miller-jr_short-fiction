@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="death-of-a-spaceman.xhtml">
 		<ignore code="t-003">
+			<line>117</line>
 			<reason>Deliberate run-on speech.</reason>
 		</ignore>
 	</file>
