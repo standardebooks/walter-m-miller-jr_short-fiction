@@ -81,7 +81,7 @@
 		<dc:contributor id="artist">Georgia O’Keeffe</dc:contributor>
 		<meta property="file-as" refines="#artist">O’Keeffe, Georgia</meta>
 		<meta property="schema:alternateName" refines="#artist">Georgia Totto O’Keeffe</meta>
-		<link href="https://en.wikipedia.org/wiki/Georgia_O'Keeffe" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Georgia_O%27Keeffe" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79148946.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
